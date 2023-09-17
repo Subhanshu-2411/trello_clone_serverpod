@@ -1,5 +1,5 @@
-clas: List
-table: list
+class: Listboard
+table: listboard
 fields:
   boardId: int, parent=board
   userId: int, parent=user

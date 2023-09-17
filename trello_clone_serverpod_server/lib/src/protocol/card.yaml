@@ -1,7 +1,7 @@
 class: Card
 table: card
 fields:
-  listId: int, parent=list
+  listId: int, parent=listboard
   userId: int, parent=user
   name: String
   description: String
