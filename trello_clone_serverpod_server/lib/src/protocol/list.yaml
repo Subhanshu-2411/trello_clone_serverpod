@@ -5,4 +5,4 @@ fields:
   userId: int, parent=user
   name: String
   archived: bool?
-  cards:
+  cards: List<Card>?, api
