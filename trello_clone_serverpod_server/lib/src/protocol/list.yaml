@@ -1,0 +1,8 @@
+clas: List
+table: list
+fields:
+  boardId: int, parent=board
+  userId: int, parent=user
+  name: String
+  archived: bool?
+  cards:
