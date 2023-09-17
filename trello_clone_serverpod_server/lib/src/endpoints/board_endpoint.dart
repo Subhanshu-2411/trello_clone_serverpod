@@ -19,7 +19,7 @@ class BoardEndpoint extends Endpoint {
   }
 
   Future<Workspace?> getWorkspaceForBoard(Session session, Board board) async {
-    Workspace? workspace = await Workspace.findSingleRow(session, where (w) => w.id.equals(board.workspaceId));
+    Workspace? workspace = await Workspace.findSingleRow(session, where: (w) => w.id.equals(board.workspaceId));
     return workspace;
   }
 
